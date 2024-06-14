@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+pandas = "*"
+seaborn = "*"
+folium = "*"
+plotly = "*"
+nbformat = ">=4.2.0"
+joypy = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
